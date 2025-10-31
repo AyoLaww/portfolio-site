@@ -65,6 +65,9 @@ export function Skills() {
               { label: "Tailwind", icon: "/SVGs/tailwind.svg" },
               { label: "Drizzle", icon: "/SVGs/Drizzle.svg" },
               { label: "Prisma", icon: "/SVGs/Prisma.svg" },
+              { label: "Github", icon: "/SVGs/github.svg" },
+              { label: "NeonDB", icon: "/SVGs/NeonDB.svg" },
+              { label: "Docker", icon: "/SVGs/docker.svg" },
             ]}
           />
           <Group
@@ -73,7 +76,11 @@ export function Skills() {
           />
           <Group
             title="Softwares"
-            items={[{ label: "VSCode", icon: "/SVGs/visual-studio-code 1.svg" }, { label: "Postman", icon: "/SVGs/Postman.svg" }, { label: "Figma", icon: "/SVGs/Figma.svg" }, { label: "Supabase", icon: "/SVGs/supabase.svg" }]}
+            items={[{ label: "VSCode", icon: "/SVGs/visual-studio-code 1.svg" },
+              { label: "Cursor", icon: "/SVGs/Cursor.svg" }, 
+              { label: "Postman", icon: "/SVGs/Postman.svg" }, 
+              { label: "Figma", icon: "/SVGs/Figma.svg" }, 
+              { label: "Supabase", icon: "/SVGs/supabase.svg" }]}
           />
           <Group title="No code" items={[{ label: "n8n", icon: "/SVGs/n8n-color 1.svg" }, { label: "Framer", icon: "/SVGs/Framer.svg" }]} />
         </div>
