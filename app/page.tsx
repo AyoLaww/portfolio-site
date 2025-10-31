@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      <div className="fixed bottom-4 right-4 z-50"><ResumeFeature /></div>
+      <div className="fixed bottom-4 right-4 z-50 hidden lg:block"><ResumeFeature /></div>
       
     </main>
   )
