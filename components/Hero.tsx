@@ -14,9 +14,8 @@ export function Hero() {
         <Badge label="Software Engineer" />
 
         <p className="max-w-[680px] text-sm md:text-base text-muted-foreground font-figtree leading-6">
-          I thrive on <span className="text-foreground font-semibold">building digital products</span> that don’t
-          just work, they <span className="text-foreground font-semibold">make people’s lives genuinely easier </span>
-          and maybe even <span className="text-foreground font-semibold">spark a little joy</span>.
+          <span className="text-foreground font-semibold">Full-Stack Software Engineer</span> building solutions that <span className="text-foreground font-semibold">solve real problems </span>
+          faced by <span className="text-foreground font-semibold">real people</span>.
         </p>
         <div className="flex flex-wrap gap-2 pt-1">
           <Link href="https://www.linkedin.com/in/lawrence-simiyu-737b53284/" target="_blank" rel="noopener noreferrer">
